@@ -1,0 +1,23 @@
+package com.springcore.lifecycle;
+
+public class Aachar {
+private String name;
+
+@Override
+public String toString() {
+	return "Aachar [name=" + name + "]";
+}
+
+public Aachar() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+}
